@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: whitesmoke;
 }
 
 * {
@@ -30,6 +30,7 @@ body {
 
 .main {
     flex: 1 0 auto;
+    text-align: center;
 }
 
 .header, .footer {
@@ -75,6 +76,7 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+
 }
 
 .footer a {
@@ -94,7 +96,7 @@ body {
 }
 
 p, td, th, li, dd {
-    text-align: justify;
+    /* text-align: justify; */
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
@@ -147,4 +149,15 @@ blockquote {
     margin-left: 1em;
     padding-left: 1em;
     border-left: 0.5em solid #f5f5f5;
+}
+
+.nav li:first-child {
+    background-color: aqua;
+}
+ 
+.nav li:last-child {
+    background-color: greenyellow;
+}
+.nav li {
+    background-color: pink;
 }
