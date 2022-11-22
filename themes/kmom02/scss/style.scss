@@ -1,0 +1,54 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+.main {
+    max-width: 800px;
+    margin: auto;
+
+}
+.footer {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.img {
+    width: 50%;
+    height: auto;
+}
+.erik {
+    display: block;
+    float:inline-end;
+    margin: 2px;
+}

@@ -2,7 +2,13 @@
 Logo: assets/img/fagel.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
-      icon: github
+    - title: Länk till sidans github repo.
+      url: https://github.com/Erik-Falk/design
+      icon: fab fa-github
+disc:
+    - title: Länk till kursens discord.
+      url: https://discord.gg/HARGpaW
+      icon: fab fa-discord
+
 ---
+
