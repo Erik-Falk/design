@@ -12,6 +12,13 @@ blockquote {
 .nav li:nth-child(2) {
     background-color: yellow;
 }
+
+.nav li:nth-child(3) {
+    background-color:aquamarine;
+}
+.nav li:nth-child(4) {
+    background-color:rgb(127, 140, 255);
+}
  
 .nav li:last-child {
     background-color: greenyellow;
