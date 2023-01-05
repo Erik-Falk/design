@@ -1,0 +1,46 @@
+.technologies-page {
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+    grid-template-rows: 200px 200px 200px 200px;
+}
+
+.tech-box {
+background-color:  #999999;
+border: 1px solid black;
+padding: 5px;
+
+}
+.tech {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    text-align: center;
+}
+.css {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+.html {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+.git {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.php {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+}
+.js {
+    grid-column: 3 / 4;
+    grid-row: 4 / 6;
+}
+.sqlite {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.python {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}

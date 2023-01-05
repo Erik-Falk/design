@@ -1,4 +1,4 @@
-<!-- ---
+---
 Title: Technologies
 Description: These are the technologies i have used.
 Template: technologies
@@ -55,5 +55,5 @@ Template: technologies
     <h2>Python</h2>
     Python är ett programspårk som utmärker sig i sin enkelhet. Spårket kräver till exempel inte att rader avslutas med semikolon. 
     </a>
-</div> -->
+</div>
 

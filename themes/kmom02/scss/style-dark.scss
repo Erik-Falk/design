@@ -7,15 +7,15 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
 
-@import 'blockquotes';
+@import 'blockquotes-dark';
 @import 'code';
 @import 'report';
-@import 'technologies';
+@import 'technologies-dark';
 @import 'two_column_layout';
 @import 'technology';
 @import 'responsive';
-@import 'analysis';
-@import 'analysis_report';
+@import 'analysis-dark';
+@import 'analysis_report-dark';
 
 
 
@@ -32,11 +32,11 @@ h1 {
 }
 
 body {
-    background-color: $background-color;
+    background-color: $background-color-dark;
 }
 
 * {
-    color: $font-color;
+    color: $font-color-dark;
 }
 
 .header, .site-header {
@@ -55,9 +55,27 @@ body {
 .img {
     width: 50%;
     height: auto;
+    filter: brightness(.8) contrast(1.2);
 }
 .erik {
     display: block;
     float:inline-end;
     margin: 2px;
+    filter: brightness(.8) contrast(1.2);
+}
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: none;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+}
+pre {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: grey;
 }
